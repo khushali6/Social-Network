@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from askbootstrap.com/preview/osahanin/light/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Mar 2023 19:01:54 GMT -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" type="image/svg" href="/static/img/logo.svg">
+<title>NetPro - Professional Social Network</title>
+
+<link rel="stylesheet" type="text/css" href="/static/vendor/slick/slick.min.css" />
+<link rel="stylesheet" type="text/css" href="/static/vendor/slick/slick-theme.min.css" />
+
+<link href="/static/vendor/icons/feather.css" rel="stylesheet" type="text/css">
+
+<link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="/static/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand navbar-dark bg-dark osahan-nav-top p-0">
+<div class="container">
+<a class="navbar-brand mr-2" href="/index"><img src="/static/img/logo.svg" alt="">
+</a>
+<form class="d-none d-sm-inline-block form-inline mr-auto my-2 my-md-0 mw-100 navbar-search">
+<div class="input-group">
+<input type="text" class="form-control shadow-none border-0" placeholder="Search people, jobs & more..." aria-label="Search" aria-describedby="basic-addon2">
+<div class="input-group-append">
+<button class="btn" type="button">
+<i class="feather-search"></i>
+</button>
+</div>
+</div>
+</form>
+<ul class="navbar-nav ml-auto d-flex align-items-center">
+
+<li class="nav-item dropdown no-arrow d-sm-none">
+<a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<i class="feather-search mr-2"></i>
+</a>
+
+<div class="dropdown-menu dropdown-menu-right p-3 shadow-sm animated--grow-in" aria-labelledby="searchDropdown">
+<form class="form-inline mr-auto w-100 navbar-search">
+<div class="input-group">
+<input type="text" class="form-control border-0 shadow-none" placeholder="Search people, jobs and more..." aria-label="Search" aria-describedby="basic-addon2">
+<div class="input-group-append">
+<button class="btn" type="button">
+<i class="feather-search"></i>
+</button>
+</div>
+</div>
+</form>
+</div>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/connection"><i class="feather-users mr-2"></i><span class="d-none d-lg-inline">Connection</span></a>
+</li>
+
+
+<div class="dropdown-menu dropdown-menu-right shadow-sm">
+<a class="dropdown-item" href="/profile"><i class="feather-user mr-1"></i> Profile</a>
+<a class="dropdown-item" href="/connection"><i class="feather-users mr-1"></i> Connection</a>
+<a class="dropdown-item" href="not-found.html"><i class="feather-alert-triangle mr-1"></i> 404 Not Found</a>
+<a class="dropdown-item" href="components.html"><i class="feather-list mr-1"></i> Components</a>
+<a class="dropdown-item" href="/signin"><i class="feather-log-in mr-1"></i> Sign In</a>
+<a class="dropdown-item" href="/signup"><i class="feather-lock mr-1"></i> Sign Up</a>
+</div>
+</li>
+
+
+
+<li class="nav-item dropdown no-arrow ml-1 osahan-profile-dropdown">
+<a class="nav-link dropdown-toggle pr-0" href="/profile" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<img class="img-profile rounded-circle" src="/static/img/p13.png">
+</a>
+
+<div class="dropdown-menu dropdown-menu-right shadow-sm">
+<div class="p-3 d-flex align-items-center">
+<div class="dropdown-list-image mr-3">
+<img class="rounded-circle" src="/static/img/user.png" alt="">
+<div class="status-indicator bg-success"></div>
+</div>
+<div class="font-weight-bold">
+<div class="text-truncate">Gurdeep Osahan</div>
+<div class="small text-gray-500">UI/UX Designer</div>
+</div>
+</div>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item" href="/profile"><i class="feather-edit mr-1"></i> My Account</a>
+<a class="dropdown-item" href="/editprofile"><i class="feather-user mr-1"></i> Edit Profile</a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item" href="/signin"><i class="feather-log-out mr-1"></i> Logout</a>
+</div>
+</li>
+</ul>
+</div>
+</nav>
+<div class="py-4">
+<div class="container">
+<div class="row">
+
+<main class="col col-xl-6 order-xl-2 col-lg-12 order-lg-1 col-md-12 col-sm-12 col-12">
+<div class="box shadow-sm border rounded bg-white mb-3 osahan-share-post">
+<ul class="nav nav-justified border-bottom osahan-line-tab" id="myTab" role="tablist">
+<li class="nav-item">
+<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="feather-edit"></i> Share an update</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><i class="feather-image"></i> Upload a photo</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><i class="feather-clipboard"></i> Write an article</a>
+</li>
+</ul>
+<div class="tab-content" id="myTabContent">
+<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+<div class="p-3 d-flex align-items-center w-100" href="#">
+<div class="dropdown-list-image mr-3">
+<img class="rounded-circle" src="/static/img/user.png" alt="">
+<div class="status-indicator bg-success"></div>
+</div>
+<div class="w-100">
+<textarea placeholder="Write your thoughts..." class="form-control border-0 p-0 shadow-none" rows="1"></textarea>
+</div>
+</div>
+</div>
+ <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+<div class="p-3 w-100">
+<textarea placeholder="Write your thoughts..." class="form-control border-0 p-0 shadow-none" rows="3"></textarea>
+</div>
+</div>
+<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+<div class="p-3 w-100">
+<textarea placeholder="Write an article..." class="form-control border-0 p-0 shadow-none" rows="3"></textarea>
+</div>
+</div>
+</div>
+<div class="border-top p-3 d-flex align-items-center">
+<div class="mr-auto"><a href="#" class="text-link small"><i class="feather-map-pin"></i> Add Location</a></div>
+<div class="flex-shrink-1">
+<button type="button" class="btn btn-light btn-sm">Preview</button>
+<button type="button" class="btn btn-primary btn-sm">Post Status</button>
+</div>
+</div>
+</div>
+<div class="box shadow-sm border rounded bg-white mb-3 osahan-post">
+<div class="p-3 d-flex align-items-center border-bottom osahan-post-header">
+<div class="dropdown-list-image mr-3">
+<img class="rounded-circle" src="/static/img/p5.png" alt="">
+<div class="status-indicator bg-success"></div>
+</div>
+<div class="font-weight-bold">
+<div class="text-truncate">Tobia Crivellari</div>
+<div class="small text-gray-500">Product Designer at askbootstrap</div>
+</div>
+<span class="ml-auto small">3 hours</span>
+</div>
+<div class="p-3 border-bottom osahan-post-body">
+<p class="mb-0">Tmpo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <a href="#">laboris consequat.</a></p>
+</div>
+<div class="p-3 border-bottom osahan-post-footer">
+<a href="#" class="mr-3 text-secondary"><i class="feather-heart text-danger"></i> 16</a>
+<a href="#" class="mr-3 text-secondary"><i class="feather-message-square"></i> 8</a>
+<a href="#" class="mr-3 text-secondary"><i class="feather-share-2"></i> 2</a>
+</div>
+<div class="p-3">
+<button type="button" class="btn btn-outline-primary btn-sm mr-1">Awesome!!</button>
+<button type="button" class="btn btn-light btn-sm mr-1">😍</button>
+<button type="button" class="btn btn-outline-secondary btn-sm mr-1">Whats it about?</button>
+<button type="button" class="btn btn-outline-secondary btn-sm mr-1">Oooo Great Wow</button>
+</div>
+</div>
+
+<div class="box mb-3 shadow-sm border rounded bg-white osahan-post">
+<div class="p-3 d-flex align-items-center border-bottom osahan-post-header">
+<div class="dropdown-list-image mr-3">
+<img class="rounded-circle" src="/static/img/p6.png" alt="">
+<div class="status-indicator bg-success"></div>
+</div>
+<div class="font-weight-bold">
+<div class="text-truncate">Collin Weiland</div>
+<div class="small text-gray-500">Web Developer @Google</div>
+</div>
+<span class="ml-auto small">3 hours</span>
+</div>
+<div class="p-3 border-bottom osahan-post-body">
+<p>Lorem ipsum dolor sit amet, consectetur 😍😎 adipisicing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <a href="#">laboris consequat.</a></p>
+<img src="/static/img/post1.png" class="img-fluid" alt="Responsive image">
+</div>
+<div class="p-3 border-bottom osahan-post-footer">
+<a href="#" class="mr-3 text-secondary"><i class="feather-heart text-danger"></i> 16</a>
+<a href="#" class="mr-3 text-secondary"><i class="feather-message-square"></i> 8</a>
+<a href="#" class="mr-3 text-secondary"><i class="feather-share-2"></i> 2</a>
+ </div>
+<div class="p-3 d-flex align-items-top border-bottom osahan-post-comment">
+<div class="dropdown-list-image mr-3">
+<img class="rounded-circle" src="/static/img/p7.png" alt="">
+<div class="status-indicator bg-success"></div>
+</div>
+<div class="font-weight-bold">
+<div class="text-truncate"> James Spiegel <span class="float-right small">2 min</span></div>
+<div class="small text-gray-500">Ratione voluptatem sequi en lod nesciunt. Neque porro quisquam est, quinder dolorem ipsum quia dolor sit amet, consectetur</div>
+</div>
+</div>
+<div class="p-3">
+<textarea placeholder="Add Comment..." class="form-control border-0 p-0 shadow-none" rows="1"></textarea>
+</div>
+</div>
+</main>
+<aside class="col col-xl-3 order-xl-1 col-lg-6 order-lg-2 col-md-6 col-sm-6 col-12">
+<div class="box mb-3 shadow-sm border rounded bg-white profile-box text-center">
+<div class="py-4 px-3 border-bottom">
+<img src="/static/img/p13.png" class="img-fluid mt-2 rounded-circle" alt="Responsive image">
+<h5 class="font-weight-bold text-dark mb-1 mt-4">Gurdeep Osahan</h5>
+<p class="mb-0 text-muted">UI / UX Designer</p>
+</div>
+<div class="d-flex">
+<div class="col-6 border-right p-3">
+<h6 class="font-weight-bold text-dark mb-1">358</h6>
+<p class="mb-0 text-black-50 small">Connections</p>
+</div>
+<div class="col-6 p-3">
+<h6 class="font-weight-bold text-dark mb-1">85</h6>
+<p class="mb-0 text-black-50 small">Views</p>
+</div>
+</div>
+<div class="overflow-hidden border-top">
+<a class="font-weight-bold p-3 d-block" href="/profile"> View my profile </a>
+</div>
+</div>
+
+
+</aside>
+<aside class="col col-xl-3 order-xl-3 col-lg-6 order-lg-3 col-md-6 col-sm-6 col-12">
+<div class="box shadow-sm border rounded bg-white mb-3">
+<div class="box-title border-bottom p-3">
+<h6 class="m-0">People you might know</h6>
+</div>
+<div class="box-body p-3">
+<div class="d-flex align-items-center osahan-post-header mb-3 people-list">
+<div class="dropdown-list-image mr-3">
+<img class="rounded-circle" src="/static/img/p8.png" alt="">
+<div class="status-indicator bg-success"></div>
+</div>
+<div class="font-weight-bold mr-2">
+<div class="text-truncate">Sophia Lee</div>
+<div class="small text-gray-500">Student at Harvard
+</div>
+</div>
+<span class="ml-auto"><button type="button" class="btn btn-light btn-sm"><i class="feather-user-plus"></i></button>
+</span>
+</div>
+<div class="d-flex align-items-center osahan-post-header mb-3 people-list">
+<div class="dropdown-list-image mr-3">
+<img class="rounded-circle" src="/static/img/p9.png" alt="">
+<div class="status-indicator bg-success"></div>
+</div>
+<div class="font-weight-bold mr-2">
+<div class="text-truncate">John Doe</div>
+<div class="small text-gray-500">Traveler
+</div>
+</div>
+<span class="ml-auto"><button type="button" class="btn btn-light btn-sm"><i class="feather-user-plus"></i></button>
+</span>
+</div>
+<div class="d-flex align-items-center osahan-post-header mb-3 people-list">
+<div class="dropdown-list-image mr-3">
+<img class="rounded-circle" src="/static/img/p10.png" alt="">
+<div class="status-indicator bg-success"></div>
+</div>
+<div class="font-weight-bold mr-2">
+<div class="text-truncate">Julia Cox</div>
+<div class="small text-gray-500">Art Designer
+</div>
+</div>
+<span class="ml-auto"><button type="button" class="btn btn-light btn-sm"><i class="feather-user-plus"></i></button>
+</span>
+</div>
+<div class="d-flex align-items-center osahan-post-header mb-3 people-list">
+<div class="dropdown-list-image mr-3">
+<img class="rounded-circle" src="/static/img/p11.png" alt="">
+<div class="status-indicator bg-success"></div>
+</div>
+<div class="font-weight-bold mr-2">
+<div class="text-truncate">Robert Cook</div>
+<div class="small text-gray-500">Photographer at Photography
+</div>
+</div>
+<span class="ml-auto"><button type="button" class="btn btn-light btn-sm"><i class="feather-user-plus"></i></button>
+</span>
+</div>
+<div class="d-flex align-items-center osahan-post-header people-list">
+<div class="dropdown-list-image mr-3">
+<img class="rounded-circle" src="/static/img/p12.png" alt="">
+<div class="status-indicator bg-success"></div>
+</div>
+<div class="font-weight-bold mr-2">
+<div class="text-truncate">Richard Bell</div>
+<div class="small text-gray-500">Graphic Designer at Envato
+</div>
+</div>
+<span class="ml-auto"><button type="button" class="btn btn-light btn-sm"><i class="feather-user-plus"></i></button>
+</span>
+</div>
+</div>
+</div>
+
+
+
+</aside>
+</div>
+</div>
+</div>
+
+<script src="/static/vendor/jquery/jquery.min.js" type="2a090755769d0ad8ee457c0b-text/javascript"></script>
+<script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js" type="2a090755769d0ad8ee457c0b-text/javascript"></script>
+
+<script type="2a090755769d0ad8ee457c0b-text/javascript" src="vendor/slick/slick.min.js"></script>
+
+<script src="/static/js/osahan.js" type="2a090755769d0ad8ee457c0b-text/javascript"></script>
+<script src="/static/../../../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="2a090755769d0ad8ee457c0b-|49" defer=""></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vb26e4fa9e5134444860be286fd8771851679335129114" integrity="sha512-M3hN/6cva/SjwrOtyXeUa5IuCT0sedyfT+jK/OV+s+D0RnzrTfwjwJHhd+wYfMm9HJSrZ1IKksOdddLuN6KOzw==" data-cf-beacon='{"rayId":"7ae9e21c2fff6ef5","version":"2023.3.0","r":1,"b":1,"token":"dd471ab1978346bbb991feaa79e6ce5c","si":100}' crossorigin="anonymous"></script>
+</body>
+
+<!-- Mirrored from askbootstrap.com/preview/osahanin/light/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Mar 2023 19:01:57 GMT -->
+</html>
